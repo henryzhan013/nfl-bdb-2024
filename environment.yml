@@ -1,0 +1,13 @@
+name: nfl-bdb-2024
+channels: [conda-forge, defaults]
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - xgboost
+  - pip
+  - pip:
+      - jupytext
+      - nbstripout
