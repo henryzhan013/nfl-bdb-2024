@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert
+*.ipynb_convert
+
+# OS
+.DS_Store
+
+# Data (keep giant/raw stuff out of git)
+data/raw/
+data/external/
+*.parquet
+*.feather
+*.zip
+*.gz
+
+# Known big CSVs you showed
+nfinal.csv
+datafinal.csv
+games.csv
+train.csv
+test.csv
+pivot.csv
+
+# Misc junk
+catboost_info/
+*.log
+
+# Large artifacts
+*.mp4
+*.gif
